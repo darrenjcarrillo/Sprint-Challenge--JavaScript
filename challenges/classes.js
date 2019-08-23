@@ -20,6 +20,12 @@ class CuboidMaker {
   }
 }
 
+class Cubemaker extends CuboidMaker {
+  constructor(cubemakerAttributes) {
+    super(cubemakerAttributes);
+  }
+}
+
 const cuboid = new CuboidMaker({
   length: 4,
   width: 5,
